@@ -1,0 +1,54 @@
+/* Normal desktop(xl) :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop(lg) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+/* Tablet desktop(md) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .progress-area {
+  	height: 770px;
+  }
+  .progress-content {
+	margin-bottom: 50px;
+}
+.counter-icon i {
+	font-size: 50px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.counter-content span {
+	font-size: 35px;
+	color: #fdf4b4;
+	margin-bottom: 10px;
+}
+
+}
+
+
+/* small mobile(xs) :320px. */
+@media (max-width: 767px) {
+  .progress-area {
+	height: 850px;
+}
+  .counter-area {
+  	height: 415px;
+  	background: #1b1b1b;
+  }
+  .members-wraper {
+	display: none;
+}
+}
+/* Large Mobile(sm) :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .progress-area {
+  	height: 770px;
+  }
+
+}
